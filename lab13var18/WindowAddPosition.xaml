@@ -52,7 +52,7 @@
                    TextAlignment="Center" FontSize="14" Margin="5,5,5,5"></TextBox>
 
         <Button Name="btnSave" Grid.Column="0" Grid.Row="6" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Content="Сохранить" Margin="15,15,15,15" Click="btnSave_Click"></Button>
-        <Button Name="btnCancel" Grid.Column="1" Grid.Row="6" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Content="Отменить" Margin="15,15,15,15"></Button>
+        <Button Name="btnCancel" Grid.Column="1" Grid.Row="6" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Content="Отменить" Margin="15,15,15,15" Click="btnCancel_Click"></Button>
 
     </Grid>
 </Window>
